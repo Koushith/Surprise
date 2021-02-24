@@ -10,3 +10,5 @@ export const typeScale = {
   helperText: '0.8rem',
   copyrightText: '0.7rem',
 };
+
+// from type-scale.com && Figma value
