@@ -3,6 +3,7 @@ import { defaultTheme, typeScale, primaryFont } from '../utils';
 import { applyStyleModifiers } from 'styled-components-modifiers';
 
 // modifiera allows us to pass the array of different varients, note: this should be applied at the end of all styled components. coz it may override the inherited styles from base component.
+// theme - we are passing as props in theme provider
 
 export const BUTTON_MODIFIERS = {
   small: () => `
