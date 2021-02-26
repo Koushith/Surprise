@@ -84,7 +84,7 @@ export const Button = styled.button`
 
 // inherit from above base button
 
-const PrimaryButton = styled(Button)`
+export const PrimaryButton = styled(Button)`
   background-color: ${(props) => props.theme.primaryColor};
   color: ${(props) => props.theme.textColorOnPrimary};
   border: 2px solid transparent;
@@ -122,7 +122,5 @@ export const TertiaryButton = styled(Button)`
   }
   ${applyStyleModifiers(BUTTON_MODIFIERS)};
 `;
-
-export default PrimaryButton;
 
 // 12

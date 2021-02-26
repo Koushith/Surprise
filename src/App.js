@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import PrimaryButton, {
+import {
+  PrimaryButton,
   SecondaryButton,
   TertiaryButton,
 } from './components/Buttons';
